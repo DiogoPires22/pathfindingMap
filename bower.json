@@ -1,0 +1,28 @@
+{
+  "name": "pathfindingMap",
+  "homepage": "https://github.com/DiogoPires22/pathfindingMap",
+  "authors": [
+    "Diogo <diogo.pires@am4.com.br>"
+  ],
+  "description": "Cálculo de melhor caminho dentro de um edificio em svg/javascript",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+ 
+  "dependencies": {
+    "pathfinding": "^0.4.18",
+    "snap.svg":"*",
+     "gulp":"*",
+     "browser-sync":"*"
+    
+    
+  }
+}
