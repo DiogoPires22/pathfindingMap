@@ -8,9 +8,9 @@
         console.log(path)
         for (var i = 0; i < path.length; i++) {
 
-            var x = $("#linha rect[linha='" + path[i][0] + "'][coluna='" + path[i][1] + "']").attr('x');
-            var y = $("#linha rect[linha='" + path[i][0] + "'][coluna='" + path[i][1] + "']").attr('y');
-            stringPath = stringPath + " " + y + "," + x;
+            // var x = $("#linha rect[linha='" + path[i][0] + "'][coluna='" + path[i][1] + "']").attr('x');
+            // var y = $("#linha rect[linha='" + path[i][0] + "'][coluna='" + path[i][1] + "']").attr('y');
+            stringPath = stringPath + " " + path[i][0] + "," + path[i][1];
         }
 
         if (stringPath != "") {

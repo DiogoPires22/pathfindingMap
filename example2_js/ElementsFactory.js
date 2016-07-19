@@ -50,9 +50,9 @@
         var len = maskedPath.getTotalLength();
         // Animate  Path
            maskedPath.attr({
-          stroke: '#66ccff',
+          stroke: '#ff0000',
           strokeLinecap: "round",
-          strokeWidth: 5,
+          strokeWidth: 1,
           fill: 'none',
           "stroke-dasharray": len + " " + len,
           "stroke-dashoffset": len
